@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:arch/app/pages/home/components/custom_switch_widget.dart';
 
-class HomePage2 extends StatefulWidget {
-  const HomePage2({Key? key}) : super(key: key);
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage2> createState() => _HomePage2State();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePage2State extends State<HomePage2> {
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

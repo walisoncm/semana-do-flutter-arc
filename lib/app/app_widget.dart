@@ -18,7 +18,7 @@ class AppWidget extends StatelessWidget {
             visualDensity: VisualDensity.adaptivePlatformDensity,
             brightness: isDart ? Brightness.dark : Brightness.light,
           ),
-          home: const HomePage2(),
+          home: const HomePage(),
         );
       },
     );
